@@ -1,142 +1,285 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../src/reset.css" />
+    <link rel="stylesheet" href="../src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="reset.css">
+    <title>Instagram</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="top-left" style="box-sizing: content-box;">
+          <div class="box-logo">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </div>
+          <img class="logo" src="../src/assets/logo.png" alt="Instagram">
+        </div>
+        <input type="text" class="top-mid" placeholder="Search"/>
+        <div class="top-right">
+          <div class="mobile">
+            <ion-icon name="paper-plane-outline"></ion-icon>
+          </div>
+          <div class="no-mobile">
+            <ion-icon name="compass-outline"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="person-outline"></ion-icon>
+            </div>
+        </div>
+        
+     </div>
+    </header>
+    <div class="body-content">
+      <div class="general">
+        <nav>
+          
+          <div class="stories">
+            <div class="stories-1">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
-  <title>Instagram</title>
-</head>
-
-<body>
-  <header class="header">
-    <div class="menu-topo">
-      <img src="./assets/logo.png">
-      <input type="text" placeholder="Pesquisar">
-      <nav class="nav">
-        <ion-icon name="heart-outline"></ion-icon>
-        <ion-icon name="heart-outline"></ion-icon>
-        <ion-icon name="heart-outline"></ion-icon>
-        <ion-icon name="heart-outline"></ion-icon>
-      </nav>
-    </div>
-  </header>
-  <div class="linha-horizontal"></div>
-
-  <main class="conteudo">
-    <div class="feed">
-      <div class="stories">
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
+              <div class=stories-img-1>
+                <img src="../src/assets/9gag1.png" alt="9gag">
+              </div>
+              <p>9gag</p>
+            </div>
+            <div class="stories-2">
+              <div class=stories-img-2>
+                <img src="../src/assets/meowed1.png" alt="meowed">
+              </div>
+              <p>meowed</p>
+            </div>
+            <div class="stories-3">
+              <div class=stories-img-3>
+                <img src="../src/assets/barked1.png" alt="barked">
+              </div>
+              <p>barked</p>
+            </div>
+            <div class="stories-4">
+              <div class=stories-img-4>
+                <img src="../src/assets/nathanwpylestrangeplanet1.png" alt="nathanwpylestrangeplanet">
+              </div>
+              <p>nathanwpyle...</p>
+            </div>
+            <div class="stories-5">
+              <div class=stories-img-5>
+                <img src="../src/assets/wawawiwacomicsa1.png" alt="wawawiwacomicsa">
+              </div>
+              <p>wawawiwac...</p>
+            </div>
+            <div class="stories-6">
+              <div class=stories-img-6>
+                <img src="../src/assets/respondeai1.png" alt="respondeai">
+              </div>
+              <p>respondeai</p>
+            </div>
+            <div class="stories-7">
+              <div class=stories-img-7>
+                <img src="../src/assets/filomoderna1.png" alt="filomoderna">
+              </div>
+              <p>filomoderna</p>
+            </div>
+            <div class="stories-8">
+              <div class=stories-img-8>
+                <img src="../src/assets/memeriagourmet1.png" alt="memeriagourmet">
+              </div>
+              <p>memeriago</p>
+            </div>
           </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
+          <div class="select-button">
+            <ion-icon name="chevron-forward-circle"></ion-icon>
           </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
+        </nav>
+        
+        <div class="post">
+          <div class="post-content">
+            <div class="post-top">  
+              <div class="profile">
+                <img src="../src/assets/meowed1.png" alt="meowed">
+                <p>meowed</p>
+              </div>
+              <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            <div class="post-mid">
+              <img src="../src/assets/gato-telefone 1.png" alt="gato">
+            </div>
+            <div class="post-botton">
+              <div class="symbols-post">
+                <div class="interact">
+                  <ion-icon name="heart-outline"></ion-icon>
+                  <ion-icon name="chatbubble-outline"></ion-icon>
+                  <ion-icon name="paper-plane-outline"></ion-icon>
+                </div>
+                <div class="save">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+                <div class="like">
+                <img src="../src/assets/respondeai1.png" alt="respondeai">
+                <p>Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong></p>
+                </div>
+              </div>
           </div>
-          <span>9gag</span>
         </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
+        <div class="post">
+          <div class="post-content">
+            <div class="post-top">  
+              <div class="profile">
+                <img src="../src/assets/barked1.png" alt="barked">
+                <p>barked</p>
+              </div>
+              <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            <div class="post-mid">
+              <img src="../src/assets/dog 1.png" alt="dog">
+            </div>
+            <div class="post-botton">
+              <div class="symbols-post">
+                <div class="interact">
+                  <ion-icon name="heart-outline"></ion-icon>
+                  <ion-icon name="chatbubble-outline"></ion-icon>
+                  <ion-icon name="paper-plane-outline"></ion-icon>
+                </div>
+                <div class="save">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+                <div class="like">
+                <img src="../src/assets/adorableanimals 1.png" alt="respondeai">
+                <p>Curtido por <strong>adorable_animals</strong> e <strong>outras 99.159 pessoas</strong></p>
+                </div>
+              </div>
           </div>
-          <span>9gag</span>
         </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
+        <div class="post">
+          <div class="post-content">
+            <div class="post-top">  
+              <div class="profile">
+                <img src="../src/assets/meowed1.png" alt="meowed">
+                <p>meowed</p>
+              </div>
+              <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            <div class="post-mid">
+              <img src="../src/assets/gato-telefone 1.png" alt="gato">
+            </div>
+            <div class="post-botton">
+              <div class="symbols-post">
+                <div class="interact">
+                  <ion-icon name="heart-outline"></ion-icon>
+                  <ion-icon name="chatbubble-outline"></ion-icon>
+                  <ion-icon name="paper-plane-outline"></ion-icon>
+                </div>
+                <div class="save">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+                <div class="like">
+                <img src="../src/assets/respondeai1.png" alt="respondeai">
+                <p>Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong></p>
+                </div>
+              </div>
           </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
-          </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
-          </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
-          </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
-          </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
-          </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
-          </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
-          </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
-          </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
-          </div>
-          <span>9gag</span>
-        </div>
-        <div class="story">
-          <div class="thumbnail">
-            <img src="./assets/9gag_logo.svg.png">
-          </div>
-          <span>9gag</span>
-        </div>
-
-        <div class="botao-scroll">
-          <ion-icon name="chevron-forward-circle"></ion-icon>
         </div>
       </div>
-      <div class="posts">
-        <div class="post"></div>
-        <div class="post"></div>
-        <div class="post"></div>
-      </div>
+      
+      <aside>
+        
+        <div class="side-1">
+          <div class="side-img-1">
+            <img src="../src/assets/catanacomics 1.png" alt="">
+          </div>
+          <div class="text-nick">
+            <p class="nick">catanacomics</p>
+            <p class= "subnick">Catana</p>
+          </div>
+        </div>
+        <div class="side-2">
+          <p>Sugestões para você</p>
+          <span>Ver tudo</span>
+        </div>
+        <div class="side">
+          <div class="side-img">
+            <img src="../src/assets/badvibesmemes 1.png" alt="badvibesmemes">
+            <div class="text-nick">
+              <p class="nick">bad.vibes.memes</p>
+              <p class= "subnick">Segue você</p>
+            </div>
+          </div>
+            <div class="follow">
+              Seguir
+            </div>
+        </div>
+        <div class="side">
+          <div class="side-img">
+            <img src="../src/assets/chibirdart 1.png" alt="badvibesmemes">
+            <div class="text-nick">
+              <p class="nick">chibirdart</p>
+              <p class= "subnick">Segue você</p>
+            </div>
+          </div>
+            <div class="follow">
+              Seguir
+            </div>
+        </div>
+        <div class="side">
+          <div class="side-img">
+            <img src="../src/assets/razoesparaacreditar 1.png" alt="badvibesmemes">
+            <div class="text-nick">
+              <p class="nick">razoesparaacreditar</p>
+              <p class= "subnick">Segue você</p>
+            </div>
+          </div>
+            <div class="follow">
+              Seguir
+            </div>
+        </div>
+        <div class="side">
+          <div class="side-img">
+            <img src="../src/assets/adorableanimals 1.png" alt="badvibesmemes">
+            <div class="text-nick">
+              <p class="nick">adorable_animals</p>
+              <p class= "subnick">Segue você</p>
+            </div>
+          </div>
+            <div class="follow">
+              Seguir
+            </div>
+        </div>
+        <div class="side">
+          <div class="side-img">
+            <img src="../src/assets/smallcutecats 1.png" alt="badvibesmemes">
+            <div class="text-nick">
+              <p class="nick">smallcutecats</p>
+              <p class= "subnick">Segue você</p>
+            </div>
+          </div>
+            <div class="follow">
+              Seguir
+            </div>
+        </div>
+        
+        <p>Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade •
+          Termos • Localizações • Contas mais relevantes • Hashtags • 
+          Idioma</p>
+        </br>
+        <p>© 2021 INSTAGRAM DO FACEBOOK</p>
+      </aside>
+      
     </div>
-    <div class="menu-lateral"></div>
-  </main>
-
-  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-</body>
-
+    <footer>
+      <div class="box-footer">
+        <ion-icon name="home"></ion-icon>
+        <ion-icon name="search"></ion-icon>
+        <ion-icon name="add-circle-outline"></ion-icon>
+        <ion-icon name="heart-outline"></ion-icon>
+        <ion-icon name="person-outline"></ion-icon>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
 </html>
