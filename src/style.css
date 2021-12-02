@@ -1,0 +1,184 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FAFAFA;
+}
+
+.header {
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+  background-color: #FFF;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.menu-topo {
+  width: 935px;
+  height: 54px;
+  padding: 0 12px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header input {
+  height: 28px;
+
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+
+  background-color: #FAFAFA;
+}
+
+.header input::placeholder {
+  text-align: center;
+}
+
+.nav {
+  color: #000;
+  font-size: 20px;
+}
+
+.nav ion-icon {
+  margin-left: 12px;
+}
+
+.conteudo {
+  width: 935px;
+  
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 0 auto;
+  margin-top: 88px;
+}
+
+.feed {
+  width: 614px;
+}
+
+.post {
+  background-color: #FFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  height: 500px;
+
+  margin-bottom: 60px;
+}
+
+.stories {
+  display: flex;
+  gap: 14px;
+
+  background-color: #FFF;
+
+  margin-bottom: 24px;
+  padding: 14px;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+.story {
+  width: 66px;
+  height: 86px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.story .thumbnail {
+  width: 64px;
+  height: 64px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('./assets/stories_background.jpg');
+  background-size: cover;
+}
+
+.thumbnail img {
+  width: 56px;
+  height: 56px;
+
+  border-radius: 50%;
+}
+
+.botao-scroll {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-scroll ion-icon {
+  border-radius: 50%;
+
+  color: #FFF;
+  font-size: 26px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.menu-lateral {
+  width: 300px;
+  height: 400px;
+
+  background-color: green;
+
+  position: sticky;
+  top: 88px;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 935px) {
+  .menu-lateral {
+    display: none;
+  }
+  
+  .conteudo {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 614px) {
+  .menu-topo, .conteudo, .feed {
+    width: 100%;
+  }
+
+  .menu-topo {
+    justify-content: center;
+  }
+
+  .menu-topo input, .menu-topo .nav,
+  .botao-scroll {
+    display: none;
+  }
+
+  .stories {
+    background: none;
+    border: none;
+    margin-bottom: 8px;
+  }
+
+  .conteudo {
+    margin-top: 48px;
+  }
+}
