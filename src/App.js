@@ -1,11 +1,14 @@
-import Header from './Header';
+import Navbar from "./Navbar"
+import Corpo from "./Corpo"
+import Mobile from "./Mobile"
 
 
 export default function App(){
     return(
         <div>
-            <Header />
-
+           <Navbar />
+           <Corpo />
+           <Mobile />
         </div>
     )
 }
